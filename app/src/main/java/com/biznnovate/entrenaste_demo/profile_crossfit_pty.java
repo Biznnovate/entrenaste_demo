@@ -11,24 +11,25 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 
-public class functional_gym extends ActionBarActivity {
+public class profile_crossfit_pty extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_functional_gym);
+        setContentView(R.layout.activity_profile_crossfit_pty);
 
-        //strings for the listview Crossfit
-        String[] functional = {"Functional 507", "3nergy Action", "Functional PTY", "Outdoor Functional"};
-        ArrayAdapter<String> adapter_funcitonal = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, functional);
-        ListView listView = (ListView)findViewById(R.id.list_functional);
-        listView.setAdapter(adapter_funcitonal);
-        //Create button with to go to gym
+    //strings for the listview Crossfit
+        String[] crossfit_pty = {"6:00am - 6:45am Warm up", "7:00am - 7:45am Stretch",
+                "6:00pm - 6:45pm Set Expert", "7:00pm - 7:45pm Stretch"};
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, crossfit_pty);
+        final ListView listView = (ListView) findViewById(R.id.list_crossfit_pty);
+        listView.setAdapter(adapter);
 
+     //Create button with to go to gym
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             public void onItemClick(AdapterView<?> arg0, View v, int position, long id) {
-                if (position == 1) {
-                    Intent myIntent = new Intent(getApplicationContext(), energy_action_demo.class);
+                if (position == 0) {
+                    Intent myIntent = new Intent(getApplicationContext(), gym_classes_crossfit_pty.class);
                     startActivity(myIntent);
                 }
             }
@@ -38,7 +39,7 @@ public class functional_gym extends ActionBarActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_functional_gym, menu);
+        getMenuInflater().inflate(R.menu.menu_profile_crossfit_pty, menu);
         return true;
     }
 

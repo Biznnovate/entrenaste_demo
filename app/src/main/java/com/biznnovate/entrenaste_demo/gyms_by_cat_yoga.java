@@ -11,25 +11,25 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 
-public class functional_gym extends ActionBarActivity {
+public class gyms_by_cat_yoga extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_functional_gym);
+        setContentView(R.layout.activity_gyms_by_cat_yoga);
 
-        //strings for the listview Crossfit
-        String[] functional = {"Functional 507", "3nergy Action", "Functional PTY", "Outdoor Functional"};
-        ArrayAdapter<String> adapter_funcitonal = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, functional);
-        ListView listView = (ListView)findViewById(R.id.list_functional);
-        listView.setAdapter(adapter_funcitonal);
+        //strings for the listview yoGA
+        String[] yoga = {"Yoga Studio", "Kundalini Yoga", "Yoga Pilates", "Yoga Fit"};
+        ArrayAdapter<String> adapter3 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, yoga);
+        ListView listView = (ListView)findViewById(R.id.list_yoga);
+        listView.setAdapter(adapter3);
+
         //Create button with to go to gym
-
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             public void onItemClick(AdapterView<?> arg0, View v, int position, long id) {
-                if (position == 1) {
-                    Intent myIntent = new Intent(getApplicationContext(), energy_action_demo.class);
-                    startActivity(myIntent);
+                if (position == 2) {
+                    Intent yogademo = new Intent(getApplicationContext(), profile_gym_yoga_pilates.class);
+                    startActivity(yogademo);
                 }
             }
         });
@@ -38,7 +38,7 @@ public class functional_gym extends ActionBarActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_functional_gym, menu);
+        getMenuInflater().inflate(R.menu.menu_gyms_by_cat_yoga, menu);
         return true;
     }
 

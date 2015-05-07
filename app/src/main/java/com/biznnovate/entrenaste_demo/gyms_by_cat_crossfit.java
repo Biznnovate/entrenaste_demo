@@ -1,11 +1,16 @@
 package com.biznnovate.entrenaste_demo;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ListView;
+import android.widget.Toast;
 
 
 public class gyms_by_cat_crossfit extends ActionBarActivity {
@@ -18,10 +23,19 @@ public class gyms_by_cat_crossfit extends ActionBarActivity {
         //strings for the listview Crossfit
         String[] crossfit = {"Crossfit PTY", "Crossfit123", "Crossfit Studio", "Outdoor Crossfit"};
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, crossfit);
-        ListView listView = (ListView)findViewById(R.id.list_crossfit);
+        final ListView listView = (ListView) findViewById(R.id.list_crossfit);
         listView.setAdapter(adapter);
-    }
 
+        //Create button with to go to gym
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            public void onItemClick(AdapterView<?> arg0, View v, int position, long id) {
+                if (position == 0) {
+                    Intent myIntent = new Intent(getApplicationContext(), profile_crossfit_pty.class);
+                    startActivity(myIntent);
+                }
+            }
+        });
+    }
 
 
 

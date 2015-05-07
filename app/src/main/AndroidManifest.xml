@@ -18,7 +18,8 @@
         </activity>
         <activity
             android:name=".user_profile"
-            android:label="@string/title_activity_user_profile" >
+            android:label="@string/title_activity_user_profile"
+            android:parentActivityName=".MainActivity">
         </activity>
         <activity
             android:name=".gym_profile"
@@ -48,6 +49,54 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.biznnovate.entrenaste_demo.MainActivity" />
+        </activity>
+        <activity
+            android:name=".gyms_by_cat_yoga"
+            android:label="@string/title_activity_gyms_by_cat_yoga"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.biznnovate.entrenaste_demo.MainActivity" />
+        </activity>
+        <activity
+            android:name=".profile_crossfit_pty"
+            android:label="@string/title_activity_profile_crossfit_pty"
+            android:parentActivityName=".gyms_by_cat_crossfit" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.biznnovate.entrenaste_demo.gyms_by_cat_crossfit" />
+        </activity>
+        <activity
+            android:name=".profile_gym_yoga_pilates"
+            android:label="@string/title_activity_profile_gym_yoga_pilates"
+            android:parentActivityName=".gyms_by_cat_yoga" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.biznnovate.entrenaste_demo.gyms_by_cat_yoga" />
+        </activity>
+        <activity
+            android:name=".energy_action_demo"
+            android:label="@string/title_activity_energy_action_demo"
+            android:parentActivityName=".functional_gym" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.biznnovate.entrenaste_demo.functional_gym" />
+        </activity>
+        <activity
+            android:name=".gym_classes_crossfit_pty"
+            android:label="@string/title_activity_gym_classes_crossfit_pty"
+            android:parentActivityName=".profile_crossfit_pty" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.biznnovate.entrenaste_demo.profile_crossfit_pty" />
+        </activity>
+        <activity
+            android:name=".gym_classes_crossfit_pty_class"
+            android:label="@string/title_activity_gym_classes_crossfit_pty_class"
+            android:parentActivityName=".profile_crossfit_pty" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.biznnovate.entrenaste_demo.profile_crossfit_pty" />
         </activity>
     </application>
 

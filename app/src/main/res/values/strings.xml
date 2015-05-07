@@ -3,7 +3,7 @@
 //user strings
 
     <string name="hello_world">Hello world!</string>
-    <string name="welcome_user">Bienvenido xxxxx, abajo encontraras nuestras recomendaciones para hoy</string>
+    <string name="welcome_user">Bienvenido Brian, abajo encontraras nuestras recomendaciones para hoy</string>
     <string name="user_name">Brian Lutz</string>
     <string name="user_dob">10-Marzo-1985</string>
     <string name="user_email">brian@entrenaste.com</string>
@@ -28,4 +28,49 @@
     <string name="title_activity_gym_classes">gym_classes</string>
     <string name="title_activity_functional_gym">functional_gym</string>
     <string name="title_activity_gyms_by_cat_crossfit">gyms_by_cat_crossfit</string>
+    <string name="title_activity_gyms_by_cat_yoga">gyms_by_cat_yoga</string>
+    <string name="title_activity_profile_crossfit_pty">profile_crossfit_pty</string>
+
+    //Crossfit_pty_info
+    <string name="crossfit_pty_title_activity_gym_profile">gym_profile</string>
+    <string name="crossfit_pty_gym_phone">507 3962535</string>
+    <string name="crossfit_pty_gym_email">info@gym.com</string>
+    <string name="crossfit_pty_gym_address">Calle 123, edif 44, piso 24, Panama, Panama</string>
+    <string name="crossfit_pty_gym_contact_name">Adriana Roquer</string>
+    <string name="crossfit_pty_gym_contact_role">Entrenadora</string>
+    <string name="crossfit_pty_gym_description">Somos un Gimnasio orientado al publico aficionado al entrenamiento.Nuestra especialidades zzz...</string>
+    <string name="crossfit_pty_title_activity_gyms_by_category">gyms_by_category</string>
+    <string name="crossfit_pty_gym_name">Crossfit PTY</string>
+    <string name="crossfit_pty_gym_class_demo">6:00am - 6:45am Warm up</string>
+
+
+
+    //Crossfit_pty_info
+    <string name="yoga_pilates_title_activity_gym_profile">gym_profile</string>
+    <string name="yoga_pilates_gym_phone">507 390 22222</string>
+    <string name="yoga_pilates_gym_email">info@yogapilates.com</string>
+    <string name="yoga_pilates_gym_address">Calle 123, edif 44, piso 24, Panama, Panama</string>
+    <string name="yoga_pilates_gym_contact_name">Maria Perez</string>
+    <string name="yoga_pilates_gym_contact_role">Yogi</string>
+    <string name="yoga_pilates_gym_description">Somos un Gimnasio orientado al publico aficionado al entrenamiento.Nuestra especialidades zzz...</string>
+    <string name="yoga_pilates_title_activity_gyms_by_category">gyms_by_category</string>
+    <string name="yoga_pilates_gym_name">Yoga Pilates</string>
+    <string name="title_activity_profile_gym_yoga_pilates">profile_gym_yoga_pilates</string>
+
+    //energy_action_info
+    <string name="energy_action_title_activity_gym_profile">gym_profile</string>
+    <string name="energy_action_gym_phone">507 225 44444</string>
+    <string name="energy_action_gym_email">info@3nergycation.com</string>
+    <string name="energy_action_gym_address">Diablo, Panama, Panama</string>
+    <string name="energy_action_gym_contact_name">Juan Perez</string>
+    <string name="energy_action_gym_contact_role">Instructor</string>
+    <string name="energy_action_gym_description">Somos un centro de Entrenamiento Funcional orientado al publico aficionado al entrenamiento.Nuestra especialidades zzz...</string>
+    <string name="energy_action_title_activity_gyms_by_category">gyms_by_category</string>
+    <string name="energy_action_gym_name">3nergy Action</string>
+    <string name="energy_action__gym_yoga_pilates">profile_gym_yoga_pilates</string>
+    <string name="title_activity_energy_action_demo">energy_action_demo</string>
+    <string name="title_activity_gym_classes_crossfit_pty">gym_classes_crossfit_pty</string>
+    <string name="title_activity_gym_classes_crossfit_pty_class">gym_classes_crossfit_pty_class
+    </string>
+
 </resources>

@@ -8,6 +8,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 
 
 public class MainActivity extends ActionBarActivity  {
@@ -33,6 +34,22 @@ public class MainActivity extends ActionBarActivity  {
         //do something in response to button
         Button button2=(Button) v;
         startActivity(new Intent(getApplicationContext(), functional_gym.class));
+
+    }
+
+//Create button for user image
+    public void buttonOnClick3 (View v) {
+        //do something in response to button
+        ImageButton button3 = (ImageButton) v;
+        startActivity(new Intent(getApplicationContext(), user_profile.class));
+
+    }
+
+    //Create button option 3 with Cat 3 Yoga
+    public void buttonOnClick_yoga (View v) {
+        //do something in response to button
+        Button button3=(Button) v;
+        startActivity(new Intent(getApplicationContext(), gyms_by_cat_yoga.class));
 
     }
 
