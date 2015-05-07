@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">entrenaste.com</string>
+//user strings
+
+    <string name="hello_world">Hello world!</string>
+    <string name="welcome_user">Bienvenido xxxxx, abajo encontraras nuestras recomendaciones para hoy</string>
+    <string name="user_name">Brian Lutz</string>
+    <string name="user_dob">10-Marzo-1985</string>
+    <string name="user_email">brian@entrenaste.com</string>
+    <string name="user_plan_status">10 de 30 reservas disponibles</string>
+    <string name="user_sex">M</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_user_profile">user_profile</string>
+
+
+//gym strings
+    <string name="title_activity_gym_profile">gym_profile</string>
+    <string name="gym_phone">222 222222</string>
+    <string name="gym_email">info@gym.com</string>
+    <string name="gym_address">Calle 123, edif 44, piso 24, Panama, Panama</string>
+    <string name="gym_contact_name">Elena Perez</string>
+    <string name="gym_contact_role">Entrenadora</string>
+    <string name="gym_description">Somos un Gimnasio orientado al publico aficionado al entrenamiento.Nuestra especialidades zzz...</string>
+    <string name="title_activity_gyms_by_category">gyms_by_category</string>
+
+//Category strings
+    <string name="cat_list_category">Crossfit</string>
+    <string name="title_activity_gym_classes">gym_classes</string>
+    <string name="title_activity_functional_gym">functional_gym</string>
+    <string name="title_activity_gyms_by_cat_crossfit">gyms_by_cat_crossfit</string>
+</resources>
